@@ -1,0 +1,18 @@
+host: kflow.eurecom.fr # required
+port: 7200 # default 8889
+admin: troncy@eurecom.fr # default you@example.org
+triplestore: graphdb
+apache_conf: graphdb/source.conf # if you want to customise the apache conf
+list: # default []
+  - vocabulary
+  - smell
+  - emission
+  - experience
+  - object
+  - actor
+  - place
+  - time
+  - assignment-type
+  - source
+  - annotation
+  - provenance

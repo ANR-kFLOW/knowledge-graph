@@ -36,8 +36,9 @@ def load_dump(name):
     print('Uploading new resources...')
     # upload new resources
     for filename in os.listdir(folder):
-        if not '.' in filename:
+        if not '.' in filename or filename.startswith('.'):
             continue
+        print(filename)
         name, ext = filename.rsplit('.', 2)
         if ext in C_TYPE:
             print('- ' + name)

@@ -22,7 +22,7 @@ services:
         -Dgraphdb.append.request.id.headers=true
         -Dreuse.vars.in.subselects=true
     ports:
-      - 7200:7200
+      - 7201:7200
     volumes:
       - ./graphdb-data:/opt/graphdb/home
       - ./dump:/opt/graphdb/home/graphdb-import

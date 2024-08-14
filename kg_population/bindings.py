@@ -1,16 +1,9 @@
-from rdflib import PROV
-# rdflib knows about quite a few popular namespaces, like W3C ontologies, schema.org etc.
 import io
-# rdflib knows about quite a few popular namespaces, like W3C ontologies, schema.org etc.
 import uuid
 
 import pydotplus
 from IPython.display import display, Image
-from rdflib import Literal, RDF, URIRef
-from rdflib import Graph
-from rdflib import PROV
-# rdflib knows about quite a few popular namespaces, like W3C ontologies, schema.org etc.
-from rdflib import RDFS
+from rdflib import Literal, URIRef, RDF, RDFS, PROV
 from rdflib.tools.rdf2dot import rdf2dot
 
 base = 'http://kflow.eurecom.fr'
@@ -43,33 +36,38 @@ faro = {
     'author': 'Youssra Rebboud, Pasquale Lisena, and Raphael Troncy',
     'year': '2022'
 }
-def bind(g,namespace,url):
+
+
+def bind(g, namespace, url):
     g.bind(namespace, url)
 
 
-def node_creation(seed, entity_mention,type):
-
-    uri = base +'/'+type.strip()+'/'+str(uuid.uuid5(uuid.NAMESPACE_DNS, seed + str(entity_mention)))
+def node_creation(seed, entity_mention, type):
+    uri = base + '/' + type.strip() + '/' + str(uuid.uuid5(uuid.NAMESPACE_DNS, seed + str(entity_mention)))
     return URIRef(uri)
 
-def add_relation(g,node,predicate,obj):
-    return (g.add((node, URIRef(predicate), obj)))
 
-def add_provenance(g,statement,prov):
-    g.add((Literal(statement),PROV.wasGeneratedBy, prov))
+def add_relation(g, node, predicate, obj):
+    return g.add((node, URIRef(predicate), obj))
 
-def add_label(g,a, label):
-        g.add([a, RDFS.label, Literal(label)])
+
+def add_provenance(g, statement, prov):
+    g.add((Literal(statement), PROV.wasGeneratedBy, prov))
+
+
+def add_label(g, a, label):
+    g.add([a, RDFS.label, Literal(label)])
+
 
 def visualize(g):
     stream = io.StringIO()
-    rdf2dot(g, stream, opts = {display})
+    rdf2dot(g, stream, opts={display})
     dg = pydotplus.graph_from_dot_data(stream.getvalue())
     png = dg.create_png()
     display(Image(png))
 
 
-def add_type(g,node, typ):
+def add_type(g, node, typ):
     if typ == 'event':
         g.add((node, RDF.type, URIRef('http://purl.org/faro/Event')))
     if typ == 'condition':
@@ -78,17 +76,12 @@ def add_type(g,node, typ):
         g.add((node, RDF.type, URIRef('https://www.w3.org/TR/owl-time/#time:TemporalEntity')))
 
 
-def create_provenance_nodes(g,ref):
+def create_provenance_nodes(g, ref):
     name = ref['name']
 
-    node_name = node_creation('', name + 'paper','Paper')
+    node_name = node_creation('', name + 'paper', 'Paper')
 
     add_relation(g, node_name, 'http://purl.org/dc/elements/1.1/title', Literal(ref['title']))
     add_relation(g, node_name, 'http://purl.org/spar/fabio/hasPublicationYear', Literal(ref['year']))
     add_relation(g, node_name, 'http://purl.org/dc/terms/creator', Literal(ref['author']))
     return node_name
-
-
-
-
-

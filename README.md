@@ -32,6 +32,8 @@ Upload dumps
     python3 scripts/load_dump.py ontoed
     python3 scripts/load_dump.py hong
     python3 scripts/load_dump.py timebank
+    python3 scripts/load_dump.py asrael
+    python3 scripts/load_dump.py afp2021
 
 ## Apache Configuration and dereferencing
 

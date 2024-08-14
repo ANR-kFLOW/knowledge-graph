@@ -1,0 +1,432 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q101499718> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/8669d494-ea84-56e8-98dd-9f2df1afb439> ;
+    ns1:hasTime <http://kflow.eurecom.fr/1616557b-b459-51c6-91e0-0f85c1ba499f> ;
+    rdf:value "2021 Ugandan general election" .
+
+<http://www.wikidata.org/entity/Q104218016> a ns1:Event ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/a9acd41b-8395-5fce-9a5a-56a4fc751603> ;
+    ns1:hasEndTimeStamp <http://kflow.eurecom.fr/579ef621-55b4-55bd-acb0-6c1fbc06e74e> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b> ;
+    ns1:hasTime <http://kflow.eurecom.fr/a74f5b97-eeac-5738-98b9-cfe2ef45cc0c> ;
+    rdf:value "2021 Sundance Film Festival" .
+
+<http://www.wikidata.org/entity/Q104579536> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/13e32eef-0aa8-5099-8c17-9f69a61c0fb9>,
+        <http://kflow.eurecom.fr/16f42de2-8294-5aa5-bcdb-2168552b726d>,
+        <http://kflow.eurecom.fr/63d35e3e-7c54-5875-aa9b-e78bdb35cb4b>,
+        <http://kflow.eurecom.fr/d40cc32c-f8f0-5858-801c-1df063353aa5> ;
+    ns1:hasTime <http://kflow.eurecom.fr/5bec5f7c-2c00-54f0-9b0f-40f0bd192412> ;
+    rdf:value "2020 Gjerdrum landslide" .
+
+<http://www.wikidata.org/entity/Q104641253> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/19fbe8b1-f866-52f5-b937-7fcab25d2254>,
+        <http://kflow.eurecom.fr/c53c2249-998d-5b78-8683-a4cea6ed5871> ;
+    ns1:hasTime <http://kflow.eurecom.fr/a74f5b97-eeac-5738-98b9-cfe2ef45cc0c> ;
+    rdf:value "150 years of the Paris Commune" .
+
+<http://www.wikidata.org/entity/Q104670985> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/9ec853a3-157b-5448-8733-0046e90fbb9b>,
+        <http://kflow.eurecom.fr/c2c5d4f2-c1a5-5bb0-a36d-b7d3e3e36a40>,
+        <http://kflow.eurecom.fr/dc95eb08-b99e-5c3f-af54-1c0dba98bd04> ;
+    ns1:hasTime <http://kflow.eurecom.fr/5360ba01-11a0-5572-8127-8bd56b80e039> ;
+    rdf:value "January 4th 2021 Boğaziçi University protests" .
+
+<http://www.wikidata.org/entity/Q104705419> a ns1:Event ;
+    ns1:hasActor <http://kflow.eurecom.fr/288fa139-acc8-5c4a-b9f7-25ab626f5251> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/0e702a9b-8201-5f9c-bbfd-996843db3080>,
+        <http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b>,
+        <http://kflow.eurecom.fr/cf855078-a1b4-5b56-bc63-37a3777ded80>,
+        <http://kflow.eurecom.fr/f0dea91e-152a-5ea1-8d02-845588b6ea44> ;
+    ns1:hasTime <http://kflow.eurecom.fr/09409e23-5934-56bf-9066-24d98d622501> ;
+    rdf:value "January 6 United States Capitol attack" .
+
+<http://www.wikidata.org/entity/Q104759345> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/00431ff4-b557-5331-9fbc-9cdb42a53a0b>,
+        <http://kflow.eurecom.fr/9ef6e41f-3ac6-5379-bf5e-6c441aa0d802>,
+        <http://kflow.eurecom.fr/d5329aa0-6954-580d-8a21-a462b3b0b08b>,
+        <http://kflow.eurecom.fr/f702faef-68d3-5526-9a3c-d72508d9e95d>,
+        <http://kflow.eurecom.fr/ffd7b574-1dc3-5b7a-af6c-c33b5500c140> ;
+    ns1:hasTime <http://kflow.eurecom.fr/e4f1caf3-4b2c-5ffd-9f57-0ca37555226a> ;
+    rdf:value "Sriwijaya Air Flight 182" .
+
+<http://www.wikidata.org/entity/Q104766871> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/055d1ab3-ad25-574d-8f09-6cc7cb3e8c3c>,
+        <http://kflow.eurecom.fr/15639ebb-b959-5f52-a037-bd7994a22f7a>,
+        <http://kflow.eurecom.fr/3dd77a5c-a620-5b03-a281-ea7f05a987d4>,
+        <http://kflow.eurecom.fr/b6a42650-2a83-5376-a838-c9df9b167491>,
+        <http://kflow.eurecom.fr/d02a4c4f-a6e9-5ac4-89b3-7c1584f5c1a9> ;
+    ns1:hasTime <http://kflow.eurecom.fr/5360ba01-11a0-5572-8127-8bd56b80e039> ;
+    rdf:value "January 2021 Lake Richmond bushfire" .
+
+<http://www.wikidata.org/entity/Q104828966> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/64663bde-63f4-59bb-a042-eec2618cefbe>,
+        <http://kflow.eurecom.fr/d5329aa0-6954-580d-8a21-a462b3b0b08b>,
+        <http://kflow.eurecom.fr/f778dba9-e407-511a-9434-3d6b4e7f1e92> ;
+    ns1:hasTime <http://kflow.eurecom.fr/b0fcb883-1be9-5a2c-911b-f2a7c6e5228a> ;
+    rdf:value "2021 West Sulawesi earthquake" .
+
+<http://www.wikidata.org/entity/Q104889772> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/63b8ad52-8ee5-5900-86aa-58fce0229a7d> ;
+    ns1:hasTime <http://kflow.eurecom.fr/23b6f797-44eb-524f-9128-9e9d026270a9>,
+        <http://kflow.eurecom.fr/c3186c02-c53b-5f9e-b17b-fdf6d54ed845> ;
+    rdf:value "2021 Jewish Home leadership election" .
+
+<http://www.wikidata.org/entity/Q104920469> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/162cfaf5-98a0-5419-bf7d-01c5ed75ec00>,
+        <http://kflow.eurecom.fr/809039d7-4c62-5da4-85e5-a7d87dceb9f1>,
+        <http://kflow.eurecom.fr/aa3ec1f3-eaf0-54e7-ae9c-11ea252ff21f>,
+        <http://kflow.eurecom.fr/ee083f43-14dd-5166-baf4-abaf2456d607> ;
+    ns1:hasTime <http://kflow.eurecom.fr/f16bf1b4-f87a-5240-842b-a9578d1d4b39> ;
+    rdf:value "2021 Madrid explosion" .
+
+<http://www.wikidata.org/entity/Q104980877> a ns1:Event ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/ba5d1f4c-8fca-5f01-b8e7-d8a8d07deb3f> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/029d4eea-f930-5f68-bb64-5c94196a5f9f>,
+        <http://kflow.eurecom.fr/e7a03c28-f722-5e36-9e22-7e805840e897>,
+        <http://kflow.eurecom.fr/f63a3b24-8d58-593a-a724-c2f687ced375> ;
+    ns1:hasTime <http://kflow.eurecom.fr/ba5d1f4c-8fca-5f01-b8e7-d8a8d07deb3f> ;
+    rdf:value "Fire at retirement home in Kharkiv" .
+
+<http://www.wikidata.org/entity/Q105008734> a ns1:Event ;
+    ns1:hasActor <http://kflow.eurecom.fr/d9b15733-9cea-5432-b851-a0da43b7e094> ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/4cc922ac-0b45-5926-81f4-74f12cdf37e6> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/0e94e5dc-f124-59cf-90f3-172dc8d99438> ;
+    ns1:hasTime <http://kflow.eurecom.fr/a74f5b97-eeac-5738-98b9-cfe2ef45cc0c> ;
+    rdf:value "2021 Russian protests" .
+
+<http://www.wikidata.org/entity/Q105046769> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b>,
+        <http://kflow.eurecom.fr/b9dc55f5-5014-5d95-a623-d5f01b3ea068> ;
+    ns1:hasTime <http://kflow.eurecom.fr/23b6f797-44eb-524f-9128-9e9d026270a9> ;
+    rdf:value "Nationwide COVID-19 Memorial" .
+
+<http://www.wikidata.org/entity/Q105063804> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/3287b32a-c2c2-5681-9df3-7524da2c801e>,
+        <http://kflow.eurecom.fr/ddbf1e2c-0e41-52d5-ad17-f302eeb1c281>,
+        <http://kflow.eurecom.fr/ec6528b0-be61-542c-bd65-df59e6dfbdab> ;
+    ns1:hasTime <http://kflow.eurecom.fr/772db338-343b-518f-8a96-99cd68380958> ;
+    rdf:value "2021 Palmas FR plane crash" .
+
+<http://www.wikidata.org/entity/Q105082586> a ns1:Event ;
+    ns1:hasActor <http://kflow.eurecom.fr/d9b15733-9cea-5432-b851-a0da43b7e094> ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/16eedfa4-4a76-5be7-884c-5c91755ccc1c> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/0e94e5dc-f124-59cf-90f3-172dc8d99438> ;
+    ns1:hasTime <http://kflow.eurecom.fr/16eedfa4-4a76-5be7-884c-5c91755ccc1c> ;
+    rdf:value "Pro-Alexei Navalny Rallies in Russia, 31 January 2021" .
+
+<http://www.wikidata.org/entity/Q105137806> a ns1:Event ;
+    ns1:hasActor <http://kflow.eurecom.fr/d9b15733-9cea-5432-b851-a0da43b7e094> ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/4cc922ac-0b45-5926-81f4-74f12cdf37e6> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/0e94e5dc-f124-59cf-90f3-172dc8d99438> ;
+    ns1:hasTime <http://kflow.eurecom.fr/4cc922ac-0b45-5926-81f4-74f12cdf37e6> ;
+    rdf:value "Pro-Alexei Navalny Rallies in Russia, 23 January 2021" .
+
+<http://www.wikidata.org/entity/Q105367670> a ns1:Event ;
+    ns1:hasBeginTimeStamp <http://kflow.eurecom.fr/2d757286-9b65-5916-acc4-741e5f8ac850> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/506befc2-bdec-5c42-b078-13ef3815c9c3> ;
+    ns1:hasTime <http://kflow.eurecom.fr/a74f5b97-eeac-5738-98b9-cfe2ef45cc0c> ;
+    rdf:value "2021–2023 Myanmar protests" .
+
+<http://www.wikidata.org/entity/Q26773028> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/f5283f50-60c2-5016-800c-ea97c4eee6b6> ;
+    ns1:hasTime <http://kflow.eurecom.fr/2254e822-8389-5cf5-8d1f-fb1b59805674> ;
+    rdf:value "2021 Mecklenburg-Vorpommern state election" .
+
+<http://www.wikidata.org/entity/Q48861733> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/c1893e2a-0593-5b13-8597-edafd986ff7e> ;
+    ns1:hasTime <http://kflow.eurecom.fr/772db338-343b-518f-8a96-99cd68380958> ;
+    rdf:value "2021 Portuguese presidential election" .
+
+<http://www.wikidata.org/entity/Q55632583> a ns1:Event ;
+    ns1:hasActor <http://kflow.eurecom.fr/1cc8456b-da1f-566f-8d83-f5d36d88ecb2>,
+        <http://kflow.eurecom.fr/3153842d-099f-5377-9225-a71dc64a521e>,
+        <http://kflow.eurecom.fr/32ac9f9b-74ee-5a6a-b91c-9d88466c2259>,
+        <http://kflow.eurecom.fr/5b5bcd85-4fb9-5f88-aaf2-532ca2b86e09>,
+        <http://kflow.eurecom.fr/8a1de676-c728-5731-b91a-86fd185d852f>,
+        <http://kflow.eurecom.fr/8ebd0dad-08c6-500c-94bf-ae7067cd9d83>,
+        <http://kflow.eurecom.fr/a5bb2ea4-be03-5611-af62-2d32e8f7c134>,
+        <http://kflow.eurecom.fr/dd74c6f2-f0e6-595b-bae5-76af406305b1>,
+        <http://kflow.eurecom.fr/e27e5da4-d249-549a-ac93-81735d06e409> ;
+    ns1:hasPlace <http://kflow.eurecom.fr/2b63cad6-8d78-5f44-92c5-2e81bd136b76> ;
+    ns1:hasTime <http://kflow.eurecom.fr/ecc00e1d-fd5b-5627-bbf3-4ab5e2354094> ;
+    rdf:value "2021 Sarawak state election" .
+
+<http://www.wikidata.org/entity/Q55636588> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b> ;
+    ns1:hasTime <http://kflow.eurecom.fr/b10a6884-ddcd-525c-92ea-16e43faf7a67>,
+        <http://kflow.eurecom.fr/e47c4cc8-0c01-52e5-987d-0aea5f2faf49> ;
+    rdf:value "2021 United States gubernatorial elections" .
+
+<http://www.wikidata.org/entity/Q56401728> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/162cfaf5-98a0-5419-bf7d-01c5ed75ec00> ;
+    ns1:hasTime <http://kflow.eurecom.fr/8f09cc3d-fc8c-5cee-b7de-53f6f74fc069> ;
+    rdf:value "2021 FC Barcelona presidential election" .
+
+<http://www.wikidata.org/entity/Q60528249> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b> ;
+    ns1:hasTime <http://kflow.eurecom.fr/e47c4cc8-0c01-52e5-987d-0aea5f2faf49> ;
+    rdf:value "2021 New Jersey gubernatorial election" .
+
+<http://www.wikidata.org/entity/Q84026024> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/e5099279-c6f7-5391-bb8e-3664b857d6d8> ;
+    ns1:hasTime <http://kflow.eurecom.fr/ec3994e5-10f9-54d3-b893-c570fb4b98f0> ;
+    rdf:value "2021 Kyrgyz presidential election" .
+
+<http://www.wikidata.org/entity/Q84030880> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/b04844c2-7cd1-51ea-b61b-131afc9834e7> ;
+    ns1:hasTime <http://kflow.eurecom.fr/e64f5378-516e-55a7-8e07-539605517801> ;
+    rdf:value "2021 Ethiopian parliamentary election" .
+
+<http://www.wikidata.org/entity/Q86757694> a ns1:Event ;
+    ns1:hasPlace <http://kflow.eurecom.fr/63b8ad52-8ee5-5900-86aa-58fce0229a7d> ;
+    ns1:hasTime <http://kflow.eurecom.fr/a572c3eb-7ecb-58f7-8bb7-a2343e799900> ;
+    rdf:value "2021 Israeli presidential election" .
+
+<http://kflow.eurecom.fr/00431ff4-b557-5331-9fbc-9cdb42a53a0b> a ns1:Place ;
+    rdf:value "Jakarta" .
+
+<http://kflow.eurecom.fr/029d4eea-f930-5f68-bb64-5c94196a5f9f> a ns1:Place ;
+    rdf:value "Point(36.163255489 49.995160406)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/055d1ab3-ad25-574d-8f09-6cc7cb3e8c3c> a ns1:Place ;
+    rdf:value "Point(115.715833333 -32.282472222)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/09409e23-5934-56bf-9066-24d98d622501> a ns1:Time ;
+    rdf:value "2021-01-06T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/0e702a9b-8201-5f9c-bbfd-996843db3080> a ns1:Place ;
+    rdf:value "Point(-77.009166666 38.889722222)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/13e32eef-0aa8-5099-8c17-9f69a61c0fb9> a ns1:Place ;
+    rdf:value "Norway" .
+
+<http://kflow.eurecom.fr/15639ebb-b959-5f52-a037-bd7994a22f7a> a ns1:Place ;
+    rdf:value "Western Australia" .
+
+<http://kflow.eurecom.fr/1616557b-b459-51c6-91e0-0f85c1ba499f> a ns1:Time ;
+    rdf:value "2021-01-14T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/16f42de2-8294-5aa5-bcdb-2168552b726d> a ns1:Place ;
+    rdf:value "Point(11.036944444 60.065)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/19fbe8b1-f866-52f5-b937-7fcab25d2254> a ns1:Place ;
+    rdf:value "France" .
+
+<http://kflow.eurecom.fr/1cc8456b-da1f-566f-8d83-f5d36d88ecb2> a ns1:Actor ;
+    rdf:value "Gabungan Parti Sarawak" .
+
+<http://kflow.eurecom.fr/2254e822-8389-5cf5-8d1f-fb1b59805674> a ns1:Time ;
+    rdf:value "2021-09-26T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/288fa139-acc8-5c4a-b9f7-25ab626f5251> a ns1:Actor ;
+    rdf:value "Proud Boys" .
+
+<http://kflow.eurecom.fr/2b63cad6-8d78-5f44-92c5-2e81bd136b76> a ns1:Place ;
+    rdf:value "Malaysia" .
+
+<http://kflow.eurecom.fr/2d757286-9b65-5916-acc4-741e5f8ac850> a ns1:Time ;
+    rdf:value "2021-02-02T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/3153842d-099f-5377-9225-a71dc64a521e> a ns1:Actor ;
+    rdf:value "Pakatan Harapan" .
+
+<http://kflow.eurecom.fr/3287b32a-c2c2-5681-9df3-7524da2c801e> a ns1:Place ;
+    rdf:value "Porto Nacional" .
+
+<http://kflow.eurecom.fr/32ac9f9b-74ee-5a6a-b91c-9d88466c2259> a ns1:Actor ;
+    rdf:value "independent politician" .
+
+<http://kflow.eurecom.fr/3dd77a5c-a620-5b03-a281-ea7f05a987d4> a ns1:Place ;
+    rdf:value "Lake Richmond" .
+
+<http://kflow.eurecom.fr/506befc2-bdec-5c42-b078-13ef3815c9c3> a ns1:Place ;
+    rdf:value "Myanmar" .
+
+<http://kflow.eurecom.fr/579ef621-55b4-55bd-acb0-6c1fbc06e74e> a ns1:Time ;
+    rdf:value "2021-02-03T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/5b5bcd85-4fb9-5f88-aaf2-532ca2b86e09> a ns1:Actor ;
+    rdf:value "Parti Bansa Dayak Sarawak Baru" .
+
+<http://kflow.eurecom.fr/5bec5f7c-2c00-54f0-9b0f-40f0bd192412> a ns1:Time ;
+    rdf:value "2020-12-30T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/63d35e3e-7c54-5875-aa9b-e78bdb35cb4b> a ns1:Place ;
+    rdf:value "Nystulia" .
+
+<http://kflow.eurecom.fr/64663bde-63f4-59bb-a042-eec2618cefbe> a ns1:Place ;
+    rdf:value "Majene" .
+
+<http://kflow.eurecom.fr/809039d7-4c62-5da4-85e5-a7d87dceb9f1> a ns1:Place ;
+    rdf:value "Madrid" .
+
+<http://kflow.eurecom.fr/8669d494-ea84-56e8-98dd-9f2df1afb439> a ns1:Place ;
+    rdf:value "Uganda" .
+
+<http://kflow.eurecom.fr/8a1de676-c728-5731-b91a-86fd185d852f> a ns1:Actor ;
+    rdf:value "Parti Bumi Kenyalang" .
+
+<http://kflow.eurecom.fr/8ebd0dad-08c6-500c-94bf-ae7067cd9d83> a ns1:Actor ;
+    rdf:value "Parti Sedar Rakyat Sarawak" .
+
+<http://kflow.eurecom.fr/8f09cc3d-fc8c-5cee-b7de-53f6f74fc069> a ns1:Time ;
+    rdf:value "2021-03-07T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/9ec853a3-157b-5448-8733-0046e90fbb9b> a ns1:Place ;
+    rdf:value "Ankara" .
+
+<http://kflow.eurecom.fr/9ef6e41f-3ac6-5379-bf5e-6c441aa0d802> a ns1:Place ;
+    rdf:value "Soekarno–Hatta International Airport" .
+
+<http://kflow.eurecom.fr/a572c3eb-7ecb-58f7-8bb7-a2343e799900> a ns1:Time ;
+    rdf:value "2021-06-02T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/a5bb2ea4-be03-5611-af62-2d32e8f7c134> a ns1:Actor ;
+    rdf:value "Parti Aspirasi Rakyat Sarawak" .
+
+<http://kflow.eurecom.fr/a9acd41b-8395-5fce-9a5a-56a4fc751603> a ns1:Time ;
+    rdf:value "2021-01-28T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/aa3ec1f3-eaf0-54e7-ae9c-11ea252ff21f> a ns1:Place ;
+    rdf:value "Point(-3.711111111 40.408194444)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/b04844c2-7cd1-51ea-b61b-131afc9834e7> a ns1:Place ;
+    rdf:value "Ethiopia" .
+
+<http://kflow.eurecom.fr/b0fcb883-1be9-5a2c-911b-f2a7c6e5228a> a ns1:Time ;
+    rdf:value "2021-01-15T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/b10a6884-ddcd-525c-92ea-16e43faf7a67> a ns1:Time ;
+    rdf:value "2021-09-14T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/b6a42650-2a83-5376-a838-c9df9b167491> a ns1:Place ;
+    rdf:value "Australia" .
+
+<http://kflow.eurecom.fr/b9dc55f5-5014-5d95-a623-d5f01b3ea068> a ns1:Place ;
+    rdf:value "National Mall" .
+
+<http://kflow.eurecom.fr/c1893e2a-0593-5b13-8597-edafd986ff7e> a ns1:Place ;
+    rdf:value "Portugal" .
+
+<http://kflow.eurecom.fr/c2c5d4f2-c1a5-5bb0-a36d-b7d3e3e36a40> a ns1:Place ;
+    rdf:value "Turkey" .
+
+<http://kflow.eurecom.fr/c3186c02-c53b-5f9e-b17b-fdf6d54ed845> a ns1:Time ;
+    rdf:value "2021-01-26T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/c53c2249-998d-5b78-8683-a4cea6ed5871> a ns1:Place ;
+    rdf:value "Paris" .
+
+<http://kflow.eurecom.fr/cf855078-a1b4-5b56-bc63-37a3777ded80> a ns1:Place ;
+    rdf:value "United States Capitol" .
+
+<http://kflow.eurecom.fr/d02a4c4f-a6e9-5ac4-89b3-7c1584f5c1a9> a ns1:Place ;
+    rdf:value "City of Rockingham" .
+
+<http://kflow.eurecom.fr/d40cc32c-f8f0-5858-801c-1df063353aa5> a ns1:Place ;
+    rdf:value "Gjerdrum" .
+
+<http://kflow.eurecom.fr/dc95eb08-b99e-5c3f-af54-1c0dba98bd04> a ns1:Place ;
+    rdf:value "Istanbul" .
+
+<http://kflow.eurecom.fr/dd74c6f2-f0e6-595b-bae5-76af406305b1> a ns1:Actor ;
+    rdf:value "Malaysian Islamic Party" .
+
+<http://kflow.eurecom.fr/ddbf1e2c-0e41-52d5-ad17-f302eeb1c281> a ns1:Place ;
+    rdf:value "Point(-48.5525 -10.183055555)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/e27e5da4-d249-549a-ac93-81735d06e409> a ns1:Actor ;
+    rdf:value "Sarawak United Party" .
+
+<http://kflow.eurecom.fr/e4f1caf3-4b2c-5ffd-9f57-0ca37555226a> a ns1:Time ;
+    rdf:value "2021-01-09T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/e5099279-c6f7-5391-bb8e-3664b857d6d8> a ns1:Place ;
+    rdf:value "Kyrgyzstan" .
+
+<http://kflow.eurecom.fr/e64f5378-516e-55a7-8e07-539605517801> a ns1:Time ;
+    rdf:value "2021-06-21T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/e7a03c28-f722-5e36-9e22-7e805840e897> a ns1:Place ;
+    rdf:value "Kharkiv" .
+
+<http://kflow.eurecom.fr/ec3994e5-10f9-54d3-b893-c570fb4b98f0> a ns1:Time ;
+    rdf:value "2021-01-10T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/ec6528b0-be61-542c-bd65-df59e6dfbdab> a ns1:Place ;
+    rdf:value "Brazil" .
+
+<http://kflow.eurecom.fr/ecc00e1d-fd5b-5627-bbf3-4ab5e2354094> a ns1:Time ;
+    rdf:value "2021-12-18T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/ee083f43-14dd-5166-baf4-abaf2456d607> a ns1:Place ;
+    rdf:value "calle de Toledo" .
+
+<http://kflow.eurecom.fr/f0dea91e-152a-5ea1-8d02-845588b6ea44> a ns1:Place ;
+    rdf:value "Washington, D.C." .
+
+<http://kflow.eurecom.fr/f16bf1b4-f87a-5240-842b-a9578d1d4b39> a ns1:Time ;
+    rdf:value "2021-01-20T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/f5283f50-60c2-5016-800c-ea97c4eee6b6> a ns1:Place ;
+    rdf:value "Germany" .
+
+<http://kflow.eurecom.fr/f63a3b24-8d58-593a-a724-c2f687ced375> a ns1:Place ;
+    rdf:value "Ukraine" .
+
+<http://kflow.eurecom.fr/f702faef-68d3-5526-9a3c-d72508d9e95d> a ns1:Place ;
+    rdf:value "Java Sea" .
+
+<http://kflow.eurecom.fr/f778dba9-e407-511a-9434-3d6b4e7f1e92> a ns1:Place ;
+    rdf:value "Point(118.924 -3.005)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/ffd7b574-1dc3-5b7a-af6c-c33b5500c140> a ns1:Place ;
+    rdf:value "Point(106.575 -5.96)"^^geo:wktLiteral .
+
+<http://kflow.eurecom.fr/162cfaf5-98a0-5419-bf7d-01c5ed75ec00> a ns1:Place ;
+    rdf:value "Spain" .
+
+<http://kflow.eurecom.fr/16eedfa4-4a76-5be7-884c-5c91755ccc1c> a ns1:Time ;
+    rdf:value "2021-01-31T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/23b6f797-44eb-524f-9128-9e9d026270a9> a ns1:Time ;
+    rdf:value "2021-01-19T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/5360ba01-11a0-5572-8127-8bd56b80e039> a ns1:Time ;
+    rdf:value "2021-01-04T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/63b8ad52-8ee5-5900-86aa-58fce0229a7d> a ns1:Place ;
+    rdf:value "Israel" .
+
+<http://kflow.eurecom.fr/772db338-343b-518f-8a96-99cd68380958> a ns1:Time ;
+    rdf:value "2021-01-24T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/ba5d1f4c-8fca-5f01-b8e7-d8a8d07deb3f> a ns1:Time ;
+    rdf:value "2021-01-21T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/d5329aa0-6954-580d-8a21-a462b3b0b08b> a ns1:Place ;
+    rdf:value "Indonesia" .
+
+<http://kflow.eurecom.fr/e47c4cc8-0c01-52e5-987d-0aea5f2faf49> a ns1:Time ;
+    rdf:value "2021-11-02T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/0e94e5dc-f124-59cf-90f3-172dc8d99438> a ns1:Place ;
+    rdf:value "Russia" .
+
+<http://kflow.eurecom.fr/4cc922ac-0b45-5926-81f4-74f12cdf37e6> a ns1:Time ;
+    rdf:value "2021-01-23T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/d9b15733-9cea-5432-b851-a0da43b7e094> a ns1:Actor ;
+    rdf:value "Anti-Corruption Foundation" .
+
+<http://kflow.eurecom.fr/a74f5b97-eeac-5738-98b9-cfe2ef45cc0c> a ns1:Time ;
+    rdf:value "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<http://kflow.eurecom.fr/94391869-ec3a-5944-b903-d73d58856a8b> a ns1:Place ;
+    rdf:value "United States of America" .
+
